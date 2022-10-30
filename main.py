@@ -3,9 +3,7 @@ import json
 import os
 
 requests.packages.urllib3.disable_warnings()
-SCKEY = os.environ.get('SCKEY')
-TG_BOT_TOKEN = os.environ.get('TGBOT')
-TG_USER_ID = os.environ.get('TGUSERID')
+
 
 
 def checkin(email=os.environ.get('EMAIL'), password=os.environ.get('PASSWORD'),
